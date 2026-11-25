@@ -1,0 +1,20 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+.pytest_cache/
+.ruff_cache/
+
+# Local exploration, not part of the benchmark
+notebooks/
+
+# Evaluation artifacts and downloaded data
+results/
+experiments/
+runs/
+data/
+indexes/
+*.parquet
+*.jsonl
